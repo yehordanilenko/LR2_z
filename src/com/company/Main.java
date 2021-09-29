@@ -106,13 +106,7 @@ public class Main {
             System.out.println("Input y4:");
             TR[i].y4=scan.nextDouble();
         }
-        /*for (int i=0;i<M;i++) {
-            System.out.println("Info about Trapeze №" + i + 1);
-            TR[i].side1 = Tr.DistBetPoints(TR[i].x1, TR[i].y1, TR[i].x2, TR[i].y2);
-            TR[i].side2 = Tr.DistBetPoints(TR[i].x2, TR[i].y2, TR[i].x3, TR[i].y3);
-            TR[i].side3 = Tr.DistBetPoints(TR[i].x3, TR[i].y3, TR[i].x4, TR[i].y4);
-            TR[i].side4 = Tr.DistBetPoints(TR[i].x4, TR[i].y4, TR[i].x1, TR[i].y1);
-        }*/
+
         double MIN_Diagonal;
         int numberTrapeze = 0;
         for (int i = 0; i < M; i++) {
